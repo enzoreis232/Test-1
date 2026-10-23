@@ -1,0 +1,53 @@
+BAC BO ANALYTICS PRO
+Aplicativo de observação visual e estudo estatístico — Windows 10/11 64 bits
+
+COMO ABRIR
+1. Extraia TODO o conteúdo do ZIP para uma pasta de sua escolha.
+2. Abra a pasta BacBoAnalyticsPro.
+3. Dê dois cliques em BacBoAnalyticsPro.exe.
+4. Mantenha a pasta _internal junto do executável. Ela contém as bibliotecas.
+Não é necessário instalar Python ou usar o terminal.
+
+PRIMEIRO USO
+Comece pelo modo Demonstração para conhecer o dashboard.
+Os dados de demonstração são identificados como simulados e separados da
+observação. Não representam uma mesa real.
+
+PARA OBSERVAR UMA TELA
+Abra o histórico que deseja estudar. Em Selecionar região, delimite somente
+a grade de resultados. Em Calibrar/configurações, ajuste linhas, colunas,
+ordem de preenchimento e cores. Confira o diagnóstico antes de observar.
+Mantenha o aplicativo fora da região monitorada para não capturar a si próprio.
+O primeiro quadro estável vira uma referência: não importa rodadas antigas.
+Cada alteração exige confirmações consecutivas antes de entrar no histórico.
+Uma leitura incerta ou deslocamento ambíguo exige recalibração/validação.
+
+LIMITES IMPORTANTES
+O leitor inicial suporta grades cronológicas regulares. Roadmaps em que empates
+são desenhados como marcas sobre outras células não equivalem a essa grade:
+não use esse modo como se fosse compatível. Ajuste cores para a interface real.
+Zoom, DPI, animações, oclusão e mudanças de tela podem exigir nova calibração.
+Não há precisão de leitura medida em imagens reais neste pacote de código.
+Os testes sintéticos não substituem validação com imagens reais rotuladas.
+
+HISTÓRICO
+Use o editor para corrigir, validar ou excluir registros. As estatísticas são
+recalculadas. Exporte CSV para guardar ou estudar fora do programa.
+Configurações, logs e banco SQLite ficam na pasta de dados do usuário, em
+AppData. O aplicativo não precisa de permissão de administrador.
+
+ANÁLISES
+Sequências, alternâncias e horários descrevem resultados anteriores.
+Reconhecimento correto de uma imagem não significa previsão do próximo dado.
+O aplicativo não acessa contas, não realiza apostas e não promete lucro.
+Telegram é opcional e requer configuração explícita. Não compartilhe tokens.
+
+VALIDAÇÃO E SUPORTE
+validacao-windows.json, quando presente, registra o teste automático do binário
+executado no runner Windows. Isso não atesta captura de uma mesa real nem
+compatibilidade com toda instalação Windows 10/11.
+Se a captura não funcionar, pause, confira a região e a calibração e consulte
+os diagnósticos. Não presuma resultados ausentes nem preencha lacunas.
+
+Este executável não usa assinatura digital de publicador. Sistemas Windows
+podem solicitar a confirmação habitual para aplicativos sem assinatura.

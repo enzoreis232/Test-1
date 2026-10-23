@@ -1,0 +1,13 @@
+{
+  "origin": "synthetic",
+  "real_table_validation": false,
+  "rows": 1,
+  "columns": 4,
+  "labels": [
+    "P",
+    "B",
+    "T",
+    "EMPTY"
+  ],
+  "description": "Grade sintética com cores HSV genéricas; não mede acurácia de mesa real."
+}
